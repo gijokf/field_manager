@@ -24,11 +24,6 @@ public class Field {
     @Column(columnDefinition = "geometry(Geometry,4326)")
     private Geometry geom;
 
-    public Field(FieldCreateData data, Geometry geom) {
-        this.cdIdFarm = data.cdIdFarm();
-        this.geom = geom;
-    }
-
     @Override
     public String toString() {
         return "Field{" +

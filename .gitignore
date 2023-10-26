@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+/.env
+/.mvn/wrapper/maven-wrapper.jar
+/.mvn/wrapper/maven-wrapper.properties
+/mvnw
+/mvnw.cmd
+/Snap.20231019.113605.1332.0010.trc

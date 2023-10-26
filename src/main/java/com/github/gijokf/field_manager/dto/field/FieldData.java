@@ -5,7 +5,7 @@ import com.github.gijokf.field_manager.dto.geoJSON.Feature;
 
 import java.util.List;
 
-public record FieldData(
+public record  FieldData(
         @JsonProperty("type")
         String type,
 

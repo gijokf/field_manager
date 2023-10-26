@@ -8,9 +8,7 @@ import java.util.List;
 
 public class GeometryToDoubleConverter {
     public static List<List<List<Double>>> convertGeometryToCoordinates(Geometry geometry) {
-        Geometry geom = geometry;
-
-        String geomString = geom.toString();
+        String geomString = geometry.toString();
 
         geomString = geomString.replace("POLYGON ((", "").replace("))", "");
 
